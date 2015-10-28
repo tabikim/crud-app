@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="info343 review">
+  <title>CRUD web app</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <link rel="stylesheet" href="raty-2.7.0/lib/jquery.raty.css">
+  <script type="text/javascript" src="raty-2.7.0/lib/jquery.raty.js"></script>
+  <script src="http://www.parsecdn.com/js/parse-1.6.0.min.js"></script> 
+  <script type=text/javascript src="./js/review.js"></script>
+  <style>
+
+
+  label { padding: 0; marign: 0; display: block; }
+  textarea { width: 90%; border: 1px solid #333; padding: 4px; }
+  .the-fix { padding-right: 10px; }
+  </style>
+</head>
+
+<body>
+
+  <h1>INFO 343: Client-side Web Development Course</h1>
+
+  <img src ="img/web-dev.jpg" alt="web-dev" style="width: 500px; height: 450px;">
+
+  <p>Average Rating:</p>
+
+  <div id="stars"></div>
+
+  <p>This course will teach you the necessary skills and techniques of client-side web development to gain the ability to create dynamic, responsive web applications.</p>
+
+  <div class="container" id="writeReview">
+  	<h2>Write a review!</h2>
+  	<form>
+  		<textarea placeholder="Type subject/title here" name="subject" id="subject" rows="2"></textarea>
+  		<br><br>
+  		<textarea placeholder="Type review here" name="review" id="review-input" rows="7"></textarea>
+		<br>
+		<button type="button" id="submit">Submit</button>
+  	</form>
+  </div> 
+
+  <div class="container" id="reviewPost">
+  	<h2>Reviews</h2>
+  </div>
+</body>
+</html>
