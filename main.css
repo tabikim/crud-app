@@ -1,3 +1,26 @@
 body {
 	font-family: Helvetica;
+	padding: 1em;
+}
+
+#stars {
+	padding-bottom: 1em;
+}
+
+#stars2 {
+	padding-bottom: 1em;
+}
+
+textarea {
+	width: 90%
+}
+
+button {
+	float: right;
+}
+
+#reviewPost {
+	border-style: dotted;
+	padding-bottom: 1em;
+	width: 90%;
 }
